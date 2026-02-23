@@ -8,14 +8,13 @@
 
 import React from 'react';
 import { StyleSheet, Text, useColorScheme, View } from 'react-native';
+import Home from './src/components/Home';
 
 
 const App = () : React.JSX.Element => {
 
   return (
-    <View>
-      <Text>Welcome to Tutorialspoint</Text>
-    </View>
+    <Home/>
   );
 }
 
