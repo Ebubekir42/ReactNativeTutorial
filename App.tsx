@@ -5,30 +5,19 @@
  * @format
  */
 
-import { NewAppScreen } from '@react-native/new-app-screen';
-import { StatusBar, StyleSheet, Text, useColorScheme, View } from 'react-native';
-import {
-  SafeAreaProvider,
-  useSafeAreaInsets,
-} from 'react-native-safe-area-context';
+
+import React from 'react';
+import { StyleSheet, Text, useColorScheme, View } from 'react-native';
 
 
-function App() {
-  const isDarkMode = useColorScheme() === 'dark';
+const App = () : React.JSX.Element => {
 
   return (
-    <View style={{justifyContent: 'center', alignItems: 'center'}}>
-      <Text>Hello World...</Text>
+    <View>
+      <Text>Welcome to Tutorialspoint</Text>
     </View>
   );
 }
 
-
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-});
 
 export default App;
