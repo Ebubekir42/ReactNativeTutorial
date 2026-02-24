@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Text, View } from "react-native"
+import { StyleSheet, Text, View } from "react-native"
 import PresentationalComponent from "./PresentationalComponent";
 
 
@@ -10,10 +10,40 @@ const Home = (): React.JSX.Element => {
 
     return (
         // <Text onPress={updateState}>{myState}</Text>
-        <View>
-            <PresentationalComponent myState={myState} updateState={updateState} />
+        // <View>
+        //     <PresentationalComponent myState={myState} updateState={updateState} />
+        // </View>
+        <View style={styles.container}>
+            <View style={styles.redbox} />
+            <View style={styles.bluebox} />
+            <View style={styles.blackbox} />
         </View>
     )
 }
+
+const styles = StyleSheet.create({
+    container: {
+        flexDirection: 'column',
+        justifyContent: 'space-between',
+        alignItems: 'flex-end',
+        backgroundColor: 'grey',
+        height: 600
+    },
+    redbox: {
+        width: 100,
+        height: 100,
+        backgroundColor: 'red'
+    },
+    bluebox: {
+        width: 100,
+        height: 100,
+        backgroundColor: 'blue'
+    },
+    blackbox: {
+        width: 100,
+        height: 100,
+        backgroundColor: 'black'
+    }
+});
 
 export default Home;
