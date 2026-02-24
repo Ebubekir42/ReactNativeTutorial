@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Text, View } from "react-native"
+import PresentationalComponent from "./PresentationalComponent";
 
 
 const Home = (): React.JSX.Element => {
@@ -8,7 +9,10 @@ const Home = (): React.JSX.Element => {
     const updateState = () => setMyState('The state is updated')
 
     return (
-        <Text onPress={updateState}>{myState}</Text>
+        // <Text onPress={updateState}>{myState}</Text>
+        <View>
+            <PresentationalComponent myState={myState} updateState={updateState} />
+        </View>
     )
 }
 
