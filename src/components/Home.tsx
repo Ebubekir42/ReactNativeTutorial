@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { StyleSheet, Text, View } from "react-native"
-import Inputs from "./Inputs";
+import ScrollViewExample from "./ScrollViewExample";
+// import Inputs from "./Inputs";
 // import PresentationalComponent from "./PresentationalComponent";
 // import List from "./List";
 
@@ -21,7 +22,8 @@ const Home = (): React.JSX.Element => {
         //     <View style={styles.blackbox} />
         // </View>
         // <List />
-        <Inputs />
+        // <Inputs />
+        <ScrollViewExample />
     )
 }
 
