@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { StyleSheet, Text, View } from "react-native"
-import ScrollViewExample from "./ScrollViewExample";
+import ImagesExample from "./ImagesExample";
+// import ScrollViewExample from "./ScrollViewExample";
 // import Inputs from "./Inputs";
 // import PresentationalComponent from "./PresentationalComponent";
 // import List from "./List";
@@ -23,7 +24,8 @@ const Home = (): React.JSX.Element => {
         // </View>
         // <List />
         // <Inputs />
-        <ScrollViewExample />
+        // <ScrollViewExample />
+        <ImagesExample />
     )
 }
 
