@@ -10,9 +10,9 @@
     "test": "jest"
   },
   "dependencies": {
-    "react": "19.2.4",
-    "react-native": "0.84.0",
     "@react-native/new-app-screen": "0.84.0",
+    "react": "^19.2.3",
+    "react-native": "0.84.0",
     "react-native-safe-area-context": "^5.6.2"
   },
   "devDependencies": {
@@ -32,7 +32,7 @@
     "eslint": "^10.0.1",
     "jest": "^30.2.0",
     "prettier": "3.8.1",
-    "react-test-renderer": "19.2.4",
+    "react-test-renderer": "^19.2.3",
     "typescript": "^5.9.3"
   },
   "engines": {
