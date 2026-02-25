@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { StyleSheet, Text, View } from "react-native"
 import PresentationalComponent from "./PresentationalComponent";
+import List from "./List";
 
 
 const Home = (): React.JSX.Element => {
@@ -13,11 +14,12 @@ const Home = (): React.JSX.Element => {
         // <View>
         //     <PresentationalComponent myState={myState} updateState={updateState} />
         // </View>
-        <View style={styles.container}>
-            <View style={styles.redbox} />
-            <View style={styles.bluebox} />
-            <View style={styles.blackbox} />
-        </View>
+        // <View style={styles.container}>
+        //     <View style={styles.redbox} />
+        //     <View style={styles.bluebox} />
+        //     <View style={styles.blackbox} />
+        // </View>
+        <List />
     )
 }
 
