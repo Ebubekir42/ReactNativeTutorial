@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { StyleSheet, Text, View } from "react-native"
-import PresentationalComponent from "./PresentationalComponent";
-import List from "./List";
+import Inputs from "./Inputs";
+// import PresentationalComponent from "./PresentationalComponent";
+// import List from "./List";
 
 
 const Home = (): React.JSX.Element => {
@@ -19,7 +20,8 @@ const Home = (): React.JSX.Element => {
         //     <View style={styles.bluebox} />
         //     <View style={styles.blackbox} />
         // </View>
-        <List />
+        // <List />
+        <Inputs />
     )
 }
 
