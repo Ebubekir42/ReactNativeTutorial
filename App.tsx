@@ -7,7 +7,8 @@
 
 
 import React from 'react';
-import ModalExample from './src/components/ModalExample';
+import ActivityIndicatorExample from './src/components/ActivityIndicatorExample';
+// import ModalExample from './src/components/ModalExample';
 // import WebViewExample from './src/components/WebViewExample';
 // import ViewExample from './src/components/ViewExample';
 // import Home from './src/components/Home';
@@ -21,7 +22,8 @@ const App = (): React.JSX.Element => {
     // <Routes />
     // <ViewExample />
     // <WebViewExample />
-    <ModalExample />
+    // <ModalExample />
+    <ActivityIndicatorExample />
   );
 }
 

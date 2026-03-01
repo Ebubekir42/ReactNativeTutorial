@@ -8,7 +8,7 @@ const ModalExample = (): React.JSX.Element => {
     return (
         <View style={styles.container}>
             <Modal animationType="fade" transparent={false}
-                visible={visible} onRequestClose={() => { console.log('Modal has been closed.') }}
+                visible={visible} onRequestClose={() => { console.log('Modal has been closed'); setVisible(!visible) }}
             >
                 <View style={styles.modal}>
                     <Text style={styles.text}>Modal is open!</Text>
