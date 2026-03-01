@@ -7,7 +7,8 @@
 
 
 import React from 'react';
-import ViewExample from './src/components/ViewExample';
+import WebViewExample from './src/components/WebViewExample';
+// import ViewExample from './src/components/ViewExample';
 // import Home from './src/components/Home';
 // import Routes from './src/components/Routes';
 
@@ -17,7 +18,8 @@ const App = (): React.JSX.Element => {
   return (
     // <Home/>
     // <Routes />
-    <ViewExample />
+    // <ViewExample />
+    <WebViewExample />
   );
 }
 
