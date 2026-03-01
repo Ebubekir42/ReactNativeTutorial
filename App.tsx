@@ -7,7 +7,8 @@
 
 
 import React from 'react';
-import WebViewExample from './src/components/WebViewExample';
+import ModalExample from './src/components/ModalExample';
+// import WebViewExample from './src/components/WebViewExample';
 // import ViewExample from './src/components/ViewExample';
 // import Home from './src/components/Home';
 // import Routes from './src/components/Routes';
@@ -19,7 +20,8 @@ const App = (): React.JSX.Element => {
     // <Home/>
     // <Routes />
     // <ViewExample />
-    <WebViewExample />
+    // <WebViewExample />
+    <ModalExample />
   );
 }
 
