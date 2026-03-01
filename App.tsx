@@ -7,14 +7,15 @@
 
 
 import React from 'react';
-import { StyleSheet, Text, useColorScheme, View } from 'react-native';
-import Home from './src/components/Home';
+// import Home from './src/components/Home';
+import Routes from './src/components/Routes';
 
 
-const App = () : React.JSX.Element => {
+const App = (): React.JSX.Element => {
 
   return (
-    <Home/>
+    // <Home/>
+    <Routes />
   );
 }
 
