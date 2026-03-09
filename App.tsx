@@ -7,7 +7,8 @@
 
 
 import React from 'react';
-import ActivityIndicatorExample from './src/components/ActivityIndicatorExample';
+import PickerExample from './src/components/PickerExample';
+// import ActivityIndicatorExample from './src/components/ActivityIndicatorExample';
 // import ModalExample from './src/components/ModalExample';
 // import WebViewExample from './src/components/WebViewExample';
 // import ViewExample from './src/components/ViewExample';
@@ -23,7 +24,8 @@ const App = (): React.JSX.Element => {
     // <ViewExample />
     // <WebViewExample />
     // <ModalExample />
-    <ActivityIndicatorExample />
+    // <ActivityIndicatorExample />
+    <PickerExample />
   );
 }
 
