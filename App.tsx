@@ -7,7 +7,8 @@
 
 
 import React from 'react';
-import SwitchExample from './src/components/SwitchExample';
+import TextExample from './src/components/TextExample';
+// import SwitchExample from './src/components/SwitchExample';
 // import PickerExample from './src/components/PickerExample';
 // import StatusBarExample from './src/components/StatusBarExample';
 // import ActivityIndicatorExample from './src/components/ActivityIndicatorExample';
@@ -29,7 +30,8 @@ const App = (): React.JSX.Element => {
     // <ActivityIndicatorExample />
     // <PickerExample />
     // <StatusBarExample />
-    <SwitchExample />
+    // <SwitchExample />
+    <TextExample />
   );
 }
 
