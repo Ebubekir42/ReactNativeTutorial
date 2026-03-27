@@ -7,8 +7,9 @@
 
 
 import React from 'react';
-import PickerExample from './src/components/PickerExample';
-import StatusBarExample from './src/components/StatusBarExample';
+import SwitchExample from './src/components/SwitchExample';
+// import PickerExample from './src/components/PickerExample';
+// import StatusBarExample from './src/components/StatusBarExample';
 // import ActivityIndicatorExample from './src/components/ActivityIndicatorExample';
 // import ModalExample from './src/components/ModalExample';
 // import WebViewExample from './src/components/WebViewExample';
@@ -27,7 +28,8 @@ const App = (): React.JSX.Element => {
     // <ModalExample />
     // <ActivityIndicatorExample />
     // <PickerExample />
-    <StatusBarExample />
+    // <StatusBarExample />
+    <SwitchExample />
   );
 }
 
