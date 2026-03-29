@@ -7,7 +7,8 @@
 
 
 import React from 'react';
-import SwitchExample from './src/components/GeolocationExample';
+import AsyncStorageExample from './src/components/AsyncStorageExample';
+// import SwitchExample from './src/components/GeolocationExample';
 // import AlertExample from './src/components/AlertExample';
 // import TextExample from './src/components/TextExample';
 // import SwitchExample from './src/components/SwitchExample';
@@ -35,7 +36,8 @@ const App = (): React.JSX.Element => {
     // <SwitchExample />
     // <TextExample />
     // <AlertExample />
-    <SwitchExample />
+    // <SwitchExample />
+    <AsyncStorageExample />
   );
 }
 
