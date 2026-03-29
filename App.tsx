@@ -7,7 +7,8 @@
 
 
 import React from 'react';
-import AlertExample from './src/components/AlertExample';
+import SwitchExample from './src/components/GeolocationExample';
+// import AlertExample from './src/components/AlertExample';
 // import TextExample from './src/components/TextExample';
 // import SwitchExample from './src/components/SwitchExample';
 // import PickerExample from './src/components/PickerExample';
@@ -33,7 +34,8 @@ const App = (): React.JSX.Element => {
     // <StatusBarExample />
     // <SwitchExample />
     // <TextExample />
-    <AlertExample />
+    // <AlertExample />
+    <SwitchExample />
   );
 }
 
